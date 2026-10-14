@@ -1,5 +1,9 @@
 function greet(name) {
-  return `Hello, ${name}!`;
+  return `Hello, ${name.trim()}!`;
 }
 
-module.exports = { greet };
+function farewell(name) {
+  return `Goodbye, ${name.trim()}!`;
+}
+
+module.exports = { greet, farewell };
