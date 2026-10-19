@@ -1,0 +1,4 @@
+version: 1
+testCommand: node --test greeting.test.js
+validationCommand: node --test greeting.test.js
+commandTimeoutSeconds: 60
